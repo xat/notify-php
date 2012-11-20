@@ -5,15 +5,15 @@ Can for example be used together with [notify-bridge](https://github.com/xat/not
 send notifications out of PHP to Browser-Clients (Push notifications).
 
 ```php
-// Creating an instance,
+// Create an an instance,
 // using the default configuration
 $notify = new Notify();
 
 // Send an update notification
 $notify->emit('update');
 
-// Sending an 'update'- Notification with
-// some data attached
+// Send an update notification
+// with some data attached
 $notify->emit('update', array('yet another notification'));
 ```
 
